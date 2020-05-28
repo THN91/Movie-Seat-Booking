@@ -49,7 +49,7 @@ body {
     background-color: #6feaf6;
 }
 
-.seat.occupaid {
+.seat.occupied {
     background-color: #fff;
 }
 
@@ -61,12 +61,12 @@ body {
     margin-left: 18px;
 }
 
-.seat:not(.occupaid):hover {
+.seat:not(.occupied):hover {
     cursor: pointer;
     transform: scale(1.2);
 }
 
-.showcase .seat:not(.occupaid):hover {
+.showcase .seat:not(.occupied):hover {
     cursor: default;
     transform: scale(1);
 }
